@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,800&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.nav {
+    /* border: 1px solid red; */
+    /* padding-top: 25px;    */
+    /* background-color: rgb(67, 67, 67); */
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img>a>img {
+    width: 80px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.auth {
+    /* border: 1px solid red; */
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn {
+    width: 30%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+
+
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.nav>ul {
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 0px 250px; */
+    /* border: 1px solid red; */
+    width: 60%;
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+}
+
+
+.nav>ul>li {
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+/* banner  */
+.banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding-bottom: 56.25%;
+
+}
+
+.banner>video {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    /* clip: rect(0px 60px 200px 0px); */
+}
+
+
+
+.info {
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    padding-top: 4em;
+    /* border: 1px solid red;x  */
+
+}
+
+.urus>img {
+    width: 100%;
+    /* padding-left: 50px; */
+}
+
+.left {
+    /* border: 1px solid red; */
+    width: 45%;
+    padding: 6em;
+    /* border: 1px solid black; */
+}
+
+.right {
+    /* border: 1px solid blue; */
+    width: 55%;
+    padding-top: 6em;
+    /* padding-right: 2em; */
+    /* clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0); */
+}
+
+.right>img {
+    /* padding-left: 6.5em; */
+    width: 45em;
+    /* border-radius: 25px; */
+}
+
+.up {
+    padding-top: 2em;
+}
+
+.info1 {
+    width: 100%;
+    display: flex;
+}
+
+.gr {
+    width: 55%;
+}
+
+.des {
+    width: 45%;
+    padding-right: 3em;
+
+}
+
+.gr {
+    padding-top: 7em;
+    padding-left: 4em;
+}
+
+.down {
+    padding-right: 3em;
+    padding-left: 2.5em;
+    padding-top: 40px;
+    font-size: 20px;
+    /* padding-bottom: 6em; */
+}
+
+.design {
+    width: 20em;
+    padding-top: 150px;
+}
+
+.up {
+    font-size: 20px;
+}
+
+.fot {
+    background-color: rgb(24, 24, 24);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-fot {
+    width: 33%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-fot>a>img {
+    width: 100%;
+    height: 140px;
+
+}
+
+.copyright {
+    width: 33%;
+    color: white;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+
+}
+
+.icons {
+    width: 33%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.i1 {
+    width: 25%;
+    margin-left: 2.5em;
+}
+
+
+
+.image-overlay {
+    position: absolute;
+    padding-top: 10em;
+    padding-left: 2em;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-image: url('./assets/image.png');
+    background-size: cover;
+    /* opacity: 0; */
+    /* Set opacity to adjust image transparency */
+}
+
+.text-overlay {
+    position: relative;
+    /* padding-top: 2em; */
+    width: 100%;
+    top: -230px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.text-overlay-content {
+    /* max-width: 80%; */
+    /* margin-top: 1em; */
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.text-overlay-content>p {
+    font-family: 'Barlow', sans-serif;
+    opacity: 70%;
+
+}
